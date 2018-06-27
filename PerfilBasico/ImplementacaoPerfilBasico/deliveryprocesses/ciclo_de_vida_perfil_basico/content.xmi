@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:DeliveryProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-bDHGbyxKZ420m962ICanIw" name="ciclo_de_vida_perfil_basico,_Zq5DAXV1Eeid4O8X8vmggg" guid="-bDHGbyxKZ420m962ICanIw">
+  <mainDescription>Quando o projeto de melhoria é conduzido seguindo metodologias de gestão, aumentam as chances de sua evolução ser&#xD;
+acompanhada de forma mais precisa e de seus marcos e metas serem alcançados conforme esperado. O diagrama apresenta uma&#xD;
+metodologia para conduzir um projeto de implementação de melhoria de processos de software e tem por objetivo organizar de&#xD;
+uma forma lógica as etapas que devem ser cumpridas.</mainDescription>
+</org.eclipse.epf.uma:DeliveryProcessDescription>

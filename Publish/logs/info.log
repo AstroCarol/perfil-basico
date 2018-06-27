@@ -1,0 +1,144 @@
+Info: CapabilityPattern:fase_1_-_diagnostico: 319 mini seconds publishing element
+Info: CapabilityPattern:fase_1_-_diagnostico: 5 mini seconds publishing process specific layout data
+Info: CapabilityPattern:fase_2_-_preparacao: 81 mini seconds publishing element
+Info: CapabilityPattern:fase_2_-_preparacao: 2 mini seconds publishing process specific layout data
+Info: CapabilityPattern:fase_3_-_execucao: 67 mini seconds publishing element
+Info: CapabilityPattern:fase_3_-_execucao: 0 mini seconds publishing process specific layout data
+Info: CapabilityPattern:fase_4_-_melhoria: 31 mini seconds publishing element
+Info: CapabilityPattern:fase_4_-_melhoria: 0 mini seconds publishing process specific layout data
+Info: DeliveryProcess:ciclo_de_vida_perfil_basico: 398 mini seconds publishing element
+Info: DeliveryProcess:ciclo_de_vida_perfil_basico: 752 mini seconds publishing process specific layout data
+Info: Phase:Diagnostico: 201 mini seconds publishing element
+Info: Activity:Identificação das Características Iniciais: 260 mini seconds publishing element
+Info: Task:identificar_os_envolvidos_preliminares: 65 mini seconds publishing element
+Info: TaskDescriptor:identificar_os_envolvidos_preliminares: 43 mini seconds publishing element
+Info: Task:identificar_as_caracteristicas_organizacionais: 9 mini seconds publishing element
+Info: TaskDescriptor:identificar_as_caracteristicas_organizacionais: 15 mini seconds publishing element
+Info: Task:identificar_o_escopo_inicial: 20 mini seconds publishing element
+Info: TaskDescriptor:identificar_o_escopo_inicial: 9 mini seconds publishing element
+Info: Activity:Realização do Diagnóstico Inicial: 242 mini seconds publishing element
+Info: Task:analisar_as_descricoes_de_processos_da_organizacao: 10 mini seconds publishing element
+Info: TaskDescriptor:analisar_as_descricoes_de_processos_da_organizacao: 8 mini seconds publishing element
+Info: Task:analisar_modelos_de_documentos_e_ferramentas_usados_para_apoiar_as_atividades_da_organizacao: 19 mini seconds publishing element
+Info: TaskDescriptor:analisar_modelos_de_documentos_e_ferramentas_usados_para_apoiar_as_atividades_da_organizacao: 8 mini seconds publishing element
+Info: Task:realizar_entrevistas_com_alta_gerencia_gestores_e_profissionais_indicados: 6 mini seconds publishing element
+Info: TaskDescriptor:realizar_entrevistas_com_alta_gerencia_gestores_e_profissionais_indicados: 37 mini seconds publishing element
+Info: Task:registrar_os_dados_coletados: 8 mini seconds publishing element
+Info: TaskDescriptor:registrar_os_dados_coletados: 11 mini seconds publishing element
+Info: Task:analizar_as_lacunas_existentes: 7 mini seconds publishing element
+Info: TaskDescriptor:analizar_as_lacunas_existentes: 11 mini seconds publishing element
+Info: Task:apresentacao_para_entendimento_geral_das_lacunas_observadas: 8 mini seconds publishing element
+Info: TaskDescriptor:apresentacao_para_entendimento_geral_das_lacunas_observadas: 9 mini seconds publishing element
+Info: Phase:Preparação: 230 mini seconds publishing element
+Info: Activity:Planejamento do Processo de Implementação: 474 mini seconds publishing element
+Info: Task:elaborar_o_plano_de_implementacao: 16 mini seconds publishing element
+Info: TaskDescriptor:elaborar_o_plano_de_implementacao: 10 mini seconds publishing element
+Info: Task:elaborar_um_cronograma_macro: 7 mini seconds publishing element
+Info: TaskDescriptor:elaborar_um_cronograma_macro: 36 mini seconds publishing element
+Info: Task:estimar_esforco_e_prazo_para_realizar_atividades_do_projeto: 6 mini seconds publishing element
+Info: TaskDescriptor:estimar_esforco_e_prazo_para_realizar_atividades_do_projeto: 9 mini seconds publishing element
+Info: Task:identificar_os_recursos_humanos_que_serao_envolvidos_ao_longo_do_projeto: 7 mini seconds publishing element
+Info: TaskDescriptor:identificar_os_recursos_humanos_que_serao_envolvidos_ao_longo_do_projeto: 9 mini seconds publishing element
+Info: Task:identificar_os_recursos_materiais_necessarios_ao_projeto: 6 mini seconds publishing element
+Info: TaskDescriptor:identificar_os_recursos_materiais_necessarios_ao_projeto: 34 mini seconds publishing element
+Info: Activity:Identificação e Análise de Riscos: 126 mini seconds publishing element
+Info: Task:identificar_os_riscos_inerentes_ao_contexto_da_organizacao: 15 mini seconds publishing element
+Info: TaskDescriptor:identificar_os_riscos_inerentes_ao_contexto_da_organizacao: 16 mini seconds publishing element
+Info: Task:analisar_os_riscos: 16 mini seconds publishing element
+Info: TaskDescriptor:analisar_os_riscos: 0 mini seconds publishing element
+Info: Activity:Compromentimento e Comunicação: 181 mini seconds publishing element
+Info: Task:formalizar_o_compromentimento_das_partes_interessadas: 15 mini seconds publishing element
+Info: TaskDescriptor:formalizar_o_compromentimento_das_partes_interessadas: 16 mini seconds publishing element
+Info: Task:garantir_a_boa_comunicacao: 0 mini seconds publishing element
+Info: TaskDescriptor:garantir_a_boa_comunicacao: 15 mini seconds publishing element
+Info: Task:apresentar_os_beneficios_reais: 0 mini seconds publishing element
+Info: TaskDescriptor:apresentar_os_beneficios_reais: 32 mini seconds publishing element
+Info: Activity:Capacitação da Equipe: 120 mini seconds publishing element
+Info: Task:capacitar_os_envolvidos: 16 mini seconds publishing element
+Info: TaskDescriptor:capacitar_os_envolvidos: 31 mini seconds publishing element
+Info: Phase:Execução: 318 mini seconds publishing element
+Info: Activity:Implementação da melhoria de processos: 137 mini seconds publishing element
+Info: Task:ajustar_o_processo: 16 mini seconds publishing element
+Info: TaskDescriptor:ajustar_o_processo: 15 mini seconds publishing element
+Info: Task:capacitar_a_equipe_no_uso_do_processo_ajustado: 16 mini seconds publishing element
+Info: TaskDescriptor:capacitar_a_equipe_no_uso_do_processo_ajustado: 0 mini seconds publishing element
+Info: Task:identificar_o_processo_atual_da_organizacao: 15 mini seconds publishing element
+Info: TaskDescriptor:identificar_o_processo_atual_da_organizacao: 0 mini seconds publishing element
+Info: Activity:Desenvolvimento dos Projetos: 232 mini seconds publishing element
+Info: Task:usar_os_processos_ajustados_nos_projetos_da_organizacao: 8 mini seconds publishing element
+Info: TaskDescriptor:usar_os_processos_ajustados_nos_projetos_da_organizacao: 36 mini seconds publishing element
+Info: Task:planejar_o_projeto: 8 mini seconds publishing element
+Info: TaskDescriptor:planejar_o_projeto: 9 mini seconds publishing element
+Info: Artifact:plano_de_projeto: 42 mini seconds publishing element
+Info: WorkProductDescriptor:plano_de_projeto: 43 mini seconds publishing element
+Info: Artifact:registro_de_reunio: 16 mini seconds publishing element
+Info: WorkProductDescriptor:registro_de_reunio: 0 mini seconds publishing element
+Info: Artifact:repositorio_do_projeto: 31 mini seconds publishing element
+Info: WorkProductDescriptor:repositorio_do_projeto: 16 mini seconds publishing element
+Info: Task:execucao_do_plano_de_projeto: 31 mini seconds publishing element
+Info: TaskDescriptor:execucao_do_plano_de_projeto: 92 mini seconds publishing element
+Info: Artifact:estratagia_de_controle_de_verso: 21 mini seconds publishing element
+Info: WorkProductDescriptor:estratagia_de_controle_de_verso: 12 mini seconds publishing element
+Info: Artifact:solicitao_de_mudana: 11 mini seconds publishing element
+Info: WorkProductDescriptor:solicitao_de_mudana: 20 mini seconds publishing element
+Info: Artifact:registro_de_status_de_progresso: 9 mini seconds publishing element
+Info: WorkProductDescriptor:registro_de_status_de_progresso: 39 mini seconds publishing element
+Info: Task:avaliacao_e_controle_do_projeto: 16 mini seconds publishing element
+Info: TaskDescriptor:avaliacao_e_controle_do_projeto: 62 mini seconds publishing element
+Info: Artifact:registro_de_correcao: 16 mini seconds publishing element
+Info: WorkProductDescriptor:registro_de_correcao: 0 mini seconds publishing element
+Info: Task:encerramento_do_projeto: 15 mini seconds publishing element
+Info: TaskDescriptor:encerramento_do_projeto: 16 mini seconds publishing element
+Info: Artifact:componentes_do_software: 0 mini seconds publishing element
+Info: WorkProductDescriptor:componentes_do_software: 16 mini seconds publishing element
+Info: Artifact:registro_de_aceitacao: 15 mini seconds publishing element
+Info: WorkProductDescriptor:registro_de_aceitacao: 0 mini seconds publishing element
+Info: Task:iniciacao_da_implementacao_do_software: 16 mini seconds publishing element
+Info: TaskDescriptor:iniciacao_da_implementacao_do_software: 31 mini seconds publishing element
+Info: Task:anlise_dos_requisitos_do_software: 16 mini seconds publishing element
+Info: TaskDescriptor:anlise_dos_requisitos_do_software: 62 mini seconds publishing element
+Info: Artifact:configuracao_do_software: 32 mini seconds publishing element
+Info: WorkProductDescriptor:configuracao_do_software: 15 mini seconds publishing element
+Info: Artifact:documento_do_usuario: 15 mini seconds publishing element
+Info: WorkProductDescriptor:documento_do_usuario: 41 mini seconds publishing element
+Info: Artifact:especificacao_de_requisitos: 20 mini seconds publishing element
+Info: WorkProductDescriptor:especificacao_de_requisitos: 11 mini seconds publishing element
+Info: Artifact:resultado_de_validacao: 8 mini seconds publishing element
+Info: WorkProductDescriptor:resultado_de_validacao: 11 mini seconds publishing element
+Info: Artifact:resultado_de_verificacao: 9 mini seconds publishing element
+Info: WorkProductDescriptor:resultado_de_verificacao: 20 mini seconds publishing element
+Info: Task:projeto_de_arquitetura_e_detalhamento_do_software: 9 mini seconds publishing element
+Info: TaskDescriptor:projeto_de_arquitetura_e_detalhamento_do_software: 66 mini seconds publishing element
+Info: Artifact:casos_de_teste_e_procedimento_de_teste: 9 mini seconds publishing element
+Info: WorkProductDescriptor:casos_de_teste_e_procedimento_de_teste: 13 mini seconds publishing element
+Info: Artifact:projeto_do_software: 16 mini seconds publishing element
+Info: WorkProductDescriptor:projeto_do_software: 14 mini seconds publishing element
+Info: Artifact:registro_de_rastreabilidade: 12 mini seconds publishing element
+Info: WorkProductDescriptor:registro_de_rastreabilidade: 16 mini seconds publishing element
+Info: Task:construcao_do_software: 9 mini seconds publishing element
+Info: TaskDescriptor:construcao_do_software: 65 mini seconds publishing element
+Info: Task:integracao_e_teste_de_software: 10 mini seconds publishing element
+Info: TaskDescriptor:integracao_e_teste_de_software: 78 mini seconds publishing element
+Info: Artifact:guia_de_operacao_do_produto: 7 mini seconds publishing element
+Info: WorkProductDescriptor:guia_de_operacao_do_produto: 13 mini seconds publishing element
+Info: Task:entrega_do_produto: 11 mini seconds publishing element
+Info: TaskDescriptor:entrega_do_produto: 14 mini seconds publishing element
+Info: Artifact:documento_de_manuntencao: 0 mini seconds publishing element
+Info: WorkProductDescriptor:documento_de_manuntencao: 47 mini seconds publishing element
+Info: Activity:Acompanhamento de Aderência dos Projetos aos Processos: 213 mini seconds publishing element
+Info: Task:realizar_avaliacoes_de_aderencia_nos_pontos_de_controle_definidos: 0 mini seconds publishing element
+Info: TaskDescriptor:realizar_avaliacoes_de_aderencia_nos_pontos_de_controle_definidos: 16 mini seconds publishing element
+Info: Activity:Identificação das Não Conformidades : 162 mini seconds publishing element
+Info: Task:identificar_as_nao_conformidades_e_oportunidade_de_melhoria: 36 mini seconds publishing element
+Info: TaskDescriptor:identificar_as_nao_conformidades_e_oportunidade_de_melhoria: 71 mini seconds publishing element
+Info: Phase:Melhoria: 183 mini seconds publishing element
+Info: Activity:Realização de Auditorías: 118 mini seconds publishing element
+Info: Task:realizar_auditorias_internas: 1 mini seconds publishing element
+Info: TaskDescriptor:realizar_auditorias_internas: 21 mini seconds publishing element
+Info: Task:realizar_auditorias_externas: 0 mini seconds publishing element
+Info: TaskDescriptor:realizar_auditorias_externas: 16 mini seconds publishing element
+Info: Activity:Tratamento das Não Conformidades: 147 mini seconds publishing element
+Info: Task:realizar_acoes: 9 mini seconds publishing element
+Info: TaskDescriptor:realizar_acoes: 18 mini seconds publishing element
+Info: CustomCategory:implementacao_do_perfil_basico: 47 mini seconds publishing element
+Info: : Publishing time: 0 minutes 11 seconds

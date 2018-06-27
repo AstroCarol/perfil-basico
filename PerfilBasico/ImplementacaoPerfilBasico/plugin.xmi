@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Dy3RsHVzEeid4O8X8vmggg" guid="_Dy3RsHVzEeid4O8X8vmggg">
+    <subManagers xmi:id="_eeWc4HVzEeid4O8X8vmggg" href="uma://_ed2GkHVzEeid4O8X8vmggg#_eeWc4HVzEeid4O8X8vmggg"/>
+    <subManagers xmi:id="_2fByMHV0Eeid4O8X8vmggg" href="uma://_2eql0HV0Eeid4O8X8vmggg#_2fByMHV0Eeid4O8X8vmggg"/>
+    <subManagers xmi:id="_6wMFYHV0Eeid4O8X8vmggg" href="uma://_6vzq4HV0Eeid4O8X8vmggg#_6wMFYHV0Eeid4O8X8vmggg"/>
+    <subManagers xmi:id="_DrbiEHV1Eeid4O8X8vmggg" href="uma://_DrDuoHV1Eeid4O8X8vmggg#_DrbiEHV1Eeid4O8X8vmggg"/>
+    <subManagers xmi:id="_ZtGCcHV1Eeid4O8X8vmggg" href="uma://_Zq5DAHV1Eeid4O8X8vmggg#_ZtGCcHV1Eeid4O8X8vmggg"/>
+    <resourceDescriptors xmi:id="_eeVOwHVzEeid4O8X8vmggg" id="_ed2GkHVzEeid4O8X8vmggg" uri="capabilitypatterns/fase_1_-_diagnostico/model.xmi"/>
+    <resourceDescriptors xmi:id="_2fBLIHV0Eeid4O8X8vmggg" id="_2eql0HV0Eeid4O8X8vmggg" uri="capabilitypatterns/fase_2_-_preparacao/model.xmi"/>
+    <resourceDescriptors xmi:id="_6wLeUHV0Eeid4O8X8vmggg" id="_6vzq4HV0Eeid4O8X8vmggg" uri="capabilitypatterns/fase_3_-_execucao/model.xmi"/>
+    <resourceDescriptors xmi:id="_Dra7AHV1Eeid4O8X8vmggg" id="_DrDuoHV1Eeid4O8X8vmggg" uri="capabilitypatterns/fase_4_-_melhoria/model.xmi"/>
+    <resourceDescriptors xmi:id="_ZrQPYHV1Eeid4O8X8vmggg" id="_Zq5DAHV1Eeid4O8X8vmggg" uri="deliveryprocesses/ciclo_de_vida_perfil_basico/model.xmi"/>
+    <resourceDescriptors xmi:id="_Z_UpYHh_EeiLnYC-lUd3Ww" id="-YAzlhMMsJhr9mf3n9kF3Fw" uri="tasks/analisar_as_descricoes_de_processos_da_organizacao.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Dx0I0HVzEeid4O8X8vmggg" name="ImplementacaoPerfilBasico" guid="_Dx0I0HVzEeid4O8X8vmggg" presentationName="Implementação do Perfil Básico" briefDescription="Implementação do perfil básico para melhorar o processo de&#xD;&#xA;desenvolvimento de software" authors="Astrogilda Caroline" changeDate="2018-06-21T13:50:18.737-0300">
+    <methodElementProperty xmi:id="_Dy5G4HVzEeid4O8X8vmggg" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_Lg1qAHVzEeid4O8X8vmggg" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I0XVzEeid4O8X8vmggg" name="Content" guid="_Dx0I0XVzEeid4O8X8vmggg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I0nVzEeid4O8X8vmggg" name="Categories" guid="_Dx0I0nVzEeid4O8X8vmggg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I03VzEeid4O8X8vmggg" name="Domains" guid="_Dx0I03VzEeid4O8X8vmggg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I1HVzEeid4O8X8vmggg" name="Disciplines" guid="_Dx0I1HVzEeid4O8X8vmggg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I1XVzEeid4O8X8vmggg" name="RoleSets" guid="_Dx0I1XVzEeid4O8X8vmggg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I1nVzEeid4O8X8vmggg" name="WP Types" guid="_Dx0I1nVzEeid4O8X8vmggg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I13VzEeid4O8X8vmggg" name="Tools" guid="_Dx0I13VzEeid4O8X8vmggg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I2HVzEeid4O8X8vmggg" name="StandardCategories" guid="_Dx0I2HVzEeid4O8X8vmggg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I2XVzEeid4O8X8vmggg" name="CustomCategories" guid="_Dx0I2XVzEeid4O8X8vmggg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I2nVzEeid4O8X8vmggg" name="Hidden" guid="_Dx0I2nVzEeid4O8X8vmggg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Dx0I23VzEeid4O8X8vmggg" name="Custom Categories" guid="_Dx0I23VzEeid4O8X8vmggg" categorizedElements="_UVYd8HlGEeiBP8SVBVFdYQ"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_UVYd8HlGEeiBP8SVBVFdYQ" name="implementacao_do_perfil_basico" guid="_UVYd8HlGEeiBP8SVBVFdYQ" presentationName="Implementação do perfil básico">
+            <methodElementProperty xmi:id="_cFfkQHlGEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_Zq5DAHV1Eeid4O8X8vmggg#_Zq5DAXV1Eeid4O8X8vmggg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Dx0I3HVzEeid4O8X8vmggg" name="CoreContent" guid="_Dx0I3HVzEeid4O8X8vmggg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yqUOYHh9EeiLnYC-lUd3Ww" name="fase_um" guid="_yqUOYHh9EeiLnYC-lUd3Ww" presentationName="Fase Um">
+          <methodElementProperty xmi:id="_yqVcgHh9EeiLnYC-lUd3Ww" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_2mTi0Hh9EeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CPMRgHh-EeiLnYC-lUd3Ww" name="analisar_as_descricoes_de_processos_da_organizacao" guid="_CPMRgHh-EeiLnYC-lUd3Ww" presentationName="Analisar as descrições de processos da organização" briefDescription="Nem sempre os processos estão descritos de uma forma convencional, portanto, é necessário identificar padrões isolados ou processos informais que estejam sendo seguidos. É recomendado que se observe in loco como as pessoas de fato realizam suas atividades.">
+            <methodElementProperty xmi:id="_QnhpAHh-EeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+            <presentation xmi:id="-YAzlhMMsJhr9mf3n9kF3Fw" href="uma://-YAzlhMMsJhr9mf3n9kF3Fw#-YAzlhMMsJhr9mf3n9kF3Fw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_actwAHh_EeiLnYC-lUd3Ww" name="identificar_os_envolvidos_preliminares" guid="_actwAHh_EeiLnYC-lUd3Ww" presentationName="Identificar os envolvidos preliminares" briefDescription="Nesta etapa é necessário garantir o envolvimento de pessoas com autonomia para tomar decisão e com credibilidade perante a equipe. O processo tende a assumir a autonomia e a credibilidade daqueles que o definem, portanto um processo que tenha sido defi nido por alguém com baixa autonomia e/ou baixa credibilidade sofrerá maior resistência para sua adoção.">
+            <methodElementProperty xmi:id="_uuK3AHh_EeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_vSazkHh_EeiLnYC-lUd3Ww" name="identificar_as_caracteristicas_organizacionais" guid="_vSazkHh_EeiLnYC-lUd3Ww" presentationName="Identificar as características organizacionais" briefDescription="Identifi que os aspectos relacionados ao tamanho da entidade, criticidade dos projetos, peculiaridades de clientes etc.">
+            <methodElementProperty xmi:id="_z5j90Hh_EeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5yp4IHh_EeiLnYC-lUd3Ww" name="identificar_o_escopo_inicial" guid="_5yp4IHh_EeiLnYC-lUd3Ww" presentationName="Identificar o escopo inicial" briefDescription="Defina o escopo desejado onde serão implementadas as melhorias de processos. Salvo situações especiais, não é recomendado iniciar projetos de melhoria em um escopo muito grande ou muito complexo.">
+            <methodElementProperty xmi:id="_AwGLYHiAEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PSqc8HiAEeiLnYC-lUd3Ww" name="analisar_modelos_de_documentos_e_ferramentas_usados_para_apoiar_as_atividades_da_organizacao" guid="_PSqc8HiAEeiLnYC-lUd3Ww" presentationName="Analisar modelos de documentos e ferramentas usados para apoiar as atividades da organização" briefDescription=" Identifi car os modelos de documentos usados pelas equipes ou mesmo pelas pessoas individualmente. Deve-se observar a operação e as saídas das ferramentas de apoio. &#xD;">
+            <methodElementProperty xmi:id="_jwX3QHiAEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_r0xykHiAEeiLnYC-lUd3Ww" name="realizar_entrevistas_com_alta_gerencia_gestores_e_profissionais_indicados" guid="_r0xykHiAEeiLnYC-lUd3Ww" presentationName="Realizar entrevistas com alta gerência gestores e profissionais indicados">
+            <methodElementProperty xmi:id="_FUEQYHiBEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KRiP8HiBEeiLnYC-lUd3Ww" name="registrar_os_dados_coletados" guid="_KRiP8HiBEeiLnYC-lUd3Ww" presentationName="Registrar os dados coletados" briefDescription="As observações devem ser registradas de modo a facilitar a identifi cação das lacunas para a aderência à norma.">
+            <methodElementProperty xmi:id="_QcbE4HiBEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RFvHoHiBEeiLnYC-lUd3Ww" name="analizar_as_lacunas_existentes" guid="_RFvHoHiBEeiLnYC-lUd3Ww" presentationName="Analizar as lacunas existentes" briefDescription="Analizar as lacunas existentes entre a execução das atividades do ciclo de vida de desenvolvimento de software em relação aos requisitos estabelecidos na ISO/IEC 29110-4-1. Checklists de orientação podem facilitar a análise das lacunas existentes na execução das atividades do ciclo de vida de desenvolvimento de software em relação aos requisitos estabelecidos na ISO/IEC 29110-4-1. É recomendado que se defi nam níveis de criticidade e precedência das lacunas identificadas, a fim de facilitar a priorização das ações seguintes.">
+            <methodElementProperty xmi:id="_mmn2MHiBEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IHdvoHiCEeiLnYC-lUd3Ww" name="apresentacao_para_entendimento_geral_das_lacunas_observadas" guid="_IHdvoHiCEeiLnYC-lUd3Ww" presentationName="Apresentação para entendimento geral das lacunas observadas" briefDescription="A apresentação dos resultados deve deixar claro o trabalho que deve ser realizado, para que se alcance aderência à norma.">
+            <methodElementProperty xmi:id="_NPicsHiCEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OK8NoHiFEeiLnYC-lUd3Ww" name="coordenador_do_projeto" guid="_OK8NoHiFEeiLnYC-lUd3Ww" presentationName="Coordenador do projeto" briefDescription="Aquele que será responsável por explorar a possibilidade de conduzir o projeto de implementação junto à gerência da VSE. Deve ser o responsável também por planejar e conduzir projetos-piloto, se for o caso, para a validação da implementação. Este papel pode ser exercido por pessoa externa à organização">
+            <methodElementProperty xmi:id="_OLuQwHiFEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OK8NoXiFEeiLnYC-lUd3Ww" name="equipe_de_envolvidos" guid="_OK8NoXiFEeiLnYC-lUd3Ww" presentationName="Equipe de envolvidos" briefDescription="Envolvidos sob a autoridade da gerência da VSE, que deverão ser treinados para participar do projeto.">
+            <methodElementProperty xmi:id="_OLuQwXiFEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OK8NoniFEeiLnYC-lUd3Ww" name="gerencia_da_vse" guid="_OK8NoniFEeiLnYC-lUd3Ww" presentationName="Gerência da VSE" briefDescription="Uma pessoa, dentro da VSE, com autoridade para aprovar e alocar os recursos internos necessários para a condução do projeto. Deve ter total conhecimento dos benefícios que a adoção da norma pode proporcionar e estar comprometido com o alcance das metas esperadas.">
+            <methodElementProperty xmi:id="_OLu30HiFEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gbNnYHiCEeiLnYC-lUd3Ww" name="fase_dois" guid="_gbNnYHiCEeiLnYC-lUd3Ww" presentationName="Fase dois">
+          <methodElementProperty xmi:id="_gbNnYXiCEeiLnYC-lUd3Ww" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_hskhkHiCEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8uugUHiCEeiLnYC-lUd3Ww" name="elaborar_o_plano_de_implementacao" guid="_8uugUHiCEeiLnYC-lUd3Ww" presentationName="Elaborar o plano de implementação" briefDescription="Com base nas informações obitidas na fase de diagnóstico irá se elaborar o plano de implementação. Quando há o apoio de uma consultoria externa experiente no planejamento do projeto de melhoria, é provável ter um plano mais eficaz.">
+            <methodElementProperty xmi:id="_E0SSMHiDEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UBW5UHiDEeiLnYC-lUd3Ww" name="identificar_os_recursos_humanos_que_serao_envolvidos_ao_longo_do_projeto" guid="_UBW5UHiDEeiLnYC-lUd3Ww" presentationName="Identificar os recursos humanos que serão envolvidos ao longo do projeto" briefDescription="A definição clara dos papéis e das responsabilidades de cada um dos envolvidos permite que possíveis conflitos ao longo do projeto possam ser minimizados ou evitados. O uso de uma equipe de consultoria externa formada por pessoas com conhecimento teórico e experiência de mercado pode trazer novos pontos de vista e maturidade ao projeto, bem como maior agilidade no alcance das metas definidas.">
+            <methodElementProperty xmi:id="_jtI1sHiDEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_lOYmAHiDEeiLnYC-lUd3Ww" name="identificar_os_recursos_materiais_necessarios_ao_projeto" guid="_lOYmAHiDEeiLnYC-lUd3Ww" presentationName="Identificar os recursos materiais necessários ao projeto" briefDescription="A adoção de ferramentas pode ser indutora de aceleração na implementação do processo. A integração das ferramentas de apoio à execução dos processos pode reduzir a quantidade de erros introduzidos por falha humana.">
+            <methodElementProperty xmi:id="_yXGvwHiDEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zM2sAHiDEeiLnYC-lUd3Ww" name="elaborar_um_cronograma_macro" guid="_zM2sAHiDEeiLnYC-lUd3Ww" presentationName="Elaborar um cronograma macro" briefDescription="Identificando os principais pontos de controle necessários. O estabelecimento detalhado das atividades que serão realizadas, com seus respectivos prazos, e das responsabilidades de cada uma das partes é um indício de que o projeto alcançará as metas estabelecidas.">
+            <methodElementProperty xmi:id="_-tbMMHiDEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__8fnYHiDEeiLnYC-lUd3Ww" name="estimar_esforco_e_prazo_para_realizar_atividades_do_projeto" guid="__8fnYHiDEeiLnYC-lUd3Ww" presentationName="Estimar esforço e prazo para realizar atividades do projeto" briefDescription="Estabelecer estimativas realistas de esforço e prazo para realizar as atividades do projeto ajuda a manter as expectativas quanto aos resultados esperados. As estimativas devem considerar o conhecimento e a capacidade de dedicação dos envolvidos.">
+            <methodElementProperty xmi:id="_Ky-BsHiEEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_vGMjMHiEEeiLnYC-lUd3Ww" name="coordenador_do_projeto" guid="_vGMjMHiEEeiLnYC-lUd3Ww" presentationName="Coordenador do projeto" briefDescription="Aquele que será responsável por explorar a possibilidade de conduzir o projeto de implementação junto à gerência da VSE. Deve ser o responsável também por planejar e conduzir projetos-piloto, se for o caso, para a validação da implementação. Este papel pode ser exercido por pessoa externa à organização">
+            <methodElementProperty xmi:id="_5ip7AHiEEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_7aMrcHiEEeiLnYC-lUd3Ww" name="gerencia_da_vse" guid="_7aMrcHiEEeiLnYC-lUd3Ww" presentationName="Gerência da VSE" briefDescription="Uma pessoa, dentro da VSE, com autoridade para aprovar e alocar os recursos internos necessários para a condução do projeto. Deve ter total conhecimento dos benefícios que a adoção da norma pode proporcionar e estar comprometido com o alcance das metas esperadas.">
+            <methodElementProperty xmi:id="_CfYlcHiFEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_FP7acHiFEeiLnYC-lUd3Ww" name="equipe_de_envolvidos" guid="_FP7acHiFEeiLnYC-lUd3Ww" presentationName="Equipe de envolvidos" briefDescription="Envolvidos sob a autoridade da gerência da VSE, que deverão ser treinados para participar do projeto.">
+            <methodElementProperty xmi:id="_KdXvsHiFEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Dg4pQHiGEeiLnYC-lUd3Ww" name="identificar_os_riscos_inerentes_ao_contexto_da_organizacao" guid="_Dg4pQHiGEeiLnYC-lUd3Ww" presentationName="Identificar os riscos inerentes ao contexto da organização">
+            <methodElementProperty xmi:id="_TcRu8HiGEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Wkk8oHiGEeiLnYC-lUd3Ww" name="analisar_os_riscos" guid="_Wkk8oHiGEeiLnYC-lUd3Ww" presentationName="Analisar os riscos" briefDescription="Considerando a aplicação de planos de contingência e mitigação. Definir um plano de mitigação e contingência para os riscos identificados maximiza as chances de sucesso do projeto.">
+            <methodElementProperty xmi:id="_ii4hsHiGEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UFK9IHiVEeiLnYC-lUd3Ww" name="formalizar_o_compromentimento_das_partes_interessadas" guid="_UFK9IHiVEeiLnYC-lUd3Ww" presentationName="Formalizar o compromentimento das partes interessadas" briefDescription="A presença, a visibilidade e a demonstração de apoio do patrocinador são um indício de que o projeto de melhoria alcançará as metas estabelecidas.">
+            <methodElementProperty xmi:id="_h4YOUHiVEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_i99WUHiVEeiLnYC-lUd3Ww" name="garantir_a_boa_comunicacao" guid="_i99WUHiVEeiLnYC-lUd3Ww" presentationName="Garantir a boa comunicação" briefDescription="Estabelecendo meios de comunicação viáveis e disponíveis para todos os envolvidos. A criação de mecanismos que facilitem a publicação e a troca de informações e experiências livremente, como, por exemplo, wiki ou intranet, pode incentivar a comunicação. Quando há na organização uma boa comunicação entre a alta gerência e os colaboradores, pode haver aumento do envolvimento e da motivação da equipe. Estimular todos os envolvidos a participar da construção e da melhoria dos processos da organização aumenta o comprometimento para que o processo retrate o dia a dia real da organização.">
+            <methodElementProperty xmi:id="_ny8vUHiVEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__XBdoHiVEeiLnYC-lUd3Ww" name="apresentar_os_beneficios_reais" guid="__XBdoHiVEeiLnYC-lUd3Ww" presentationName="Apresentar os benefícios reais" briefDescription="Benefícios que podem ser esperados como resultado do projeto de implementação. Quando os membros da organização estão conscientes quanto aos benefícios obtidos com a implantação dos processos, há maior facilidade na gerência do programa de melhoria.">
+            <methodElementProperty xmi:id="_JgN7MHiWEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YwaHwHiWEeiLnYC-lUd3Ww" name="capacitar_os_envolvidos" guid="_YwaHwHiWEeiLnYC-lUd3Ww" presentationName="Capacitar os envolvidos" briefDescription="Capacitar os envolvidos na ABNT NBR ISO/IEC 29110-4-1 e nos outros documentos da série ISO/IEC 29110 relacionados ao perfil básico. Capacitar os envolvidos, quando necessário, nos conceitos relacionados ao contexto de implementação. Capacitar os envolvidos, quando necessário, nas boas práticas de gestão e engenharia de software.  Quanto maior é a capacitação profi ssional dos membros da organização, menor é a resistência às mudanças decorrentes da implementação e da melhoria dos processos.">
+            <methodElementProperty xmi:id="_sF_cYHiWEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ifYekHiCEeiLnYC-lUd3Ww" name="fase_tres" guid="_ifYekHiCEeiLnYC-lUd3Ww" presentationName="Fase três">
+          <methodElementProperty xmi:id="_ifYekXiCEeiLnYC-lUd3Ww" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_krUxsHiCEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_4qKuoHiWEeiLnYC-lUd3Ww" name="identificar_o_processo_atual_da_organizacao" guid="_4qKuoHiWEeiLnYC-lUd3Ww" presentationName="Identificar o processo atual da organização" briefDescription="Descrever, mesmo que em alto nível, o processo atual da organização auxilia o estabelecimento das ações de melhoria que devem ser realizadas. Auxilia também a alinhar os vários “processos paralelos” que podem existir na organização.">
+            <methodElementProperty xmi:id="_Ang_sHiXEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FosakHiXEeiLnYC-lUd3Ww" name="ajustar_o_processo" guid="_FosakHiXEeiLnYC-lUd3Ww" presentationName="Ajustar o processo" briefDescription="Ajustar o processo de acordo com as necessidades identificadas na fase de diagnóstico e com os requisitos da ABNT NBR ISO/IEC 29110-4-1&#xD;.  As ações que devem ser tomadas para tornar o processo da organização aderente à norma devem ser priorizadas de acordo com os critérios definidos e a ordem de precedência indicados na fase de diagnóstico. Se necessário, considere realizar as melhorias em ciclos, avaliando e coletando as lições aprendidas ao final de cada um desses ciclos.">
+            <methodElementProperty xmi:id="_fIE_AHiXEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_g7YIoHiXEeiLnYC-lUd3Ww" name="capacitar_a_equipe_no_uso_do_processo_ajustado" guid="_g7YIoHiXEeiLnYC-lUd3Ww" presentationName="Capacitar a equipe no uso do processo ajustado" briefDescription="Garantir que a equipe está capacitada para realizar as atividades defi nidas no processo aumenta a eficácia dos resultados. Ferramentas de apoio ao processo devem também ser objeto de capacitação. A falta de capacitação para o uso de ferramentas pode diminuir drasticamente a efi ciência ou, ainda, levar a erros na execução do processo.">
+            <methodElementProperty xmi:id="_rKCVAHiXEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JYURgHiYEeiLnYC-lUd3Ww" name="usar_os_processos_ajustados_nos_projetos_da_organizacao" guid="_JYURgHiYEeiLnYC-lUd3Ww" presentationName="Usar os processos ajustados nos projetos da organização" briefDescription="Após o desenvolvimento de um processo que caracterize o(s) ciclo(s) de vida adaptados para a organização, os projetos devem ser realizados com base no que foi defi nido. Os processos da organização devem ser de conhecimento de todos, e é importante que os envolvidos nas atividades sejam capacitados para realizá-las da forma adequada e mais eficiente possível.">
+            <methodElementProperty xmi:id="_NLzKMHiYEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_VvAhYHiYEeiLnYC-lUd3Ww" name="planejar_o_projeto" guid="_VvAhYHiYEeiLnYC-lUd3Ww" presentationName="Planejar o projeto" briefDescription="Nessa etapa são tidas as seguintes preocupações: &#xD;&#xA;• Reunir-se com o cliente e outros interessados para revisar a declaração de trabalho e combinar como serão feitas as entregas do produto (como, o que, quando, onde etc.). &#xD;&#xA;• Identificar as tarefas a serem realizadas para produzir o que deve ser entregue, estimando os recursos humanos e materiais necessários, treinamento, ferramentas e prazos, criando o cronograma do projeto.&#xD;&#xA;• Organizar a equipe do projeto.&#xD;&#xA;• Fazer uma análise de riscos.&#xD;&#xA;• Definir o controle dos documentos e outros artefatos do projeto, onde serão armazenados, como será o versionamento, como e quando serão geradas baselines e as responsabilidades por tudo isso, criando o repositório do projeto.&#xD;&#xA;• Revisar e verificar o plano do projeto, obter aprovação dos interessados, obter o aceite do cliente nas partes que o afetam." output="_ZITTAHlJEeiBP8SVBVFdYQ _dBRvsHlJEeiBP8SVBVFdYQ _ooWggHlJEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_ytFaQHiYEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3FNREHiYEeiLnYC-lUd3Ww" name="execucao_do_plano_de_projeto" guid="_3FNREHiYEeiLnYC-lUd3Ww" presentationName="Execução do plano de projeto" briefDescription="Durante essa etapa é necessário:&#xD;&#xA;• Monitorar a execução do projeto e registrar o realizado no registro de status de progresso.&#xD;&#xA;• Conduzir reuniões de revisão com a equipe de trabalho, identificar problemas, rever status dos riscos, registrar as decisões e monitorá-las até a sua conclusão.&#xD;&#xA;• Conduzir reuniões de revisão com o cliente, registrar as decisões e monitorá-las até a sua conclusão.&#xD;&#xA;• Solicitação de mudança iniciada pelo cliente ou pela equipe de trabalho, que afete o cliente, precisa ser negociada para alcançar a aceitação de ambas as partes.&#xD;&#xA;• Se necessário, atualizar o plano do projeto segundo o novo acordo com o cliente.&#xD;&#xA;• Fazer backups de acordo com a estratégia de controle de versão.&#xD;&#xA;• Fazer a recuperação do repositório do projeto usando o backup do repositório do projeto, se necessário." mandatoryInput="_1RwRAHlJEeiBP8SVBVFdYQ _ZITTAHlJEeiBP8SVBVFdYQ _x3M1sHlJEeiBP8SVBVFdYQ" output="_ZITTAHlJEeiBP8SVBVFdYQ _dBRvsHlJEeiBP8SVBVFdYQ _5EHIUHlJEeiBP8SVBVFdYQ _ooWggHlJEeiBP8SVBVFdYQ _x3M1sHlJEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_Oa3v8HiZEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LwdQwHicEeiLnYC-lUd3Ww" name="avaliacao_e_controle_do_projeto" guid="_LwdQwHicEeiLnYC-lUd3Ww" presentationName="Avaliação e controle do projeto" briefDescription="Avaliar o progresso do projeto com respeito ao plano do projeto, comparando:&#xD;&#xA;• Tarefas realizadas versus planejadas;&#xD;&#xA;• Resultados realizados versus objetivos do projeto estabelecidos;&#xD;&#xA;• Alocação de recursos realizada versus planejada;&#xD;&#xA;• Custo real versus estimativas do orçamento;&#xD;&#xA;• Momento real versus cronograma planejado;&#xD;&#xA;• Riscos reais versus identificados previamente. " mandatoryInput="_ZITTAHlJEeiBP8SVBVFdYQ _5EHIUHlJEeiBP8SVBVFdYQ" output="_8xqYIHlJEeiBP8SVBVFdYQ _5EHIUHlJEeiBP8SVBVFdYQ _x3M1sHlJEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_Z_MnYHicEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_j0htwHicEeiLnYC-lUd3Ww" name="encerramento_do_projeto" guid="_j0htwHicEeiLnYC-lUd3Ww" presentationName="Encerramento do projeto" briefDescription="Responsável por formalizar a conclusão do projeto de acordo com as instruções de entrega estabelecidas no plano de projeto, fornecendo apoio para a aceitação e recebendo o registro de aceitação assinado. Atualizar o repositório do projeto." mandatoryInput="_k4B0EHlKEeiBP8SVBVFdYQ _ZITTAHlJEeiBP8SVBVFdYQ" output="_k4B0EHlKEeiBP8SVBVFdYQ _ooWggHlJEeiBP8SVBVFdYQ _tD7CAHlLEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_tidysHicEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_z24XEHicEeiLnYC-lUd3Ww" name="iniciacao_da_implementacao_do_software" guid="_z24XEHicEeiLnYC-lUd3Ww" presentationName="Iniciação da implementação do software" briefDescription=" Responsável por Reunir-se com a equipe do projeto e discutir o plano do projeto para alcançar um entendimento comum e comprometimento com as tarefas. Organizar o ambiente de trabalho em termos de local, equipamentos, software, ferramentas, arquivos, senhas, acessos, autorizações etc." mandatoryInput="_ZITTAHlJEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_B6k7UHidEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NjNyYHidEeiLnYC-lUd3Ww" name="anlise_dos_requisitos_do_software" guid="_NjNyYHidEeiLnYC-lUd3Ww" presentationName="Análise dos requisitos do software" briefDescription="Nessa etapa é necessário:&#xD;&#xA;• Identificar e consultar fontes de informação (cliente, usuários, sistemas anteriores, documentos etc.), procurando obter todos os requisitos e analisando questões de escopo e viabilidade.&#xD;&#xA;• Documentar ou atualizar a especificação de requisitos.&#xD;&#xA;• Verificar os requisitos quanto à consistência com o produto definido na declaração de trabalho, assegurando que estejam claros, sem ambiguidades e completos, registrando os resultados e corrigindo o que for preciso.&#xD;&#xA;• Obter aprovação da especificação de requisitos.&#xD;&#xA;• Validar a especificação de requisitos, obter aprovação do usuário e gerar uma baseline na configuração do software.&#xD;&#xA;• Se for o caso, preparar uma versão preliminar da documentação do usuário ou atualizar o manual existente." mandatoryInput="_ZITTAHlJEeiBP8SVBVFdYQ" output="_VVXXcHlKEeiBP8SVBVFdYQ _K4hlIHlKEeiBP8SVBVFdYQ _N69bYHlKEeiBP8SVBVFdYQ _RWMMIHlKEeiBP8SVBVFdYQ _x3M1sHlJEeiBP8SVBVFdYQ _GaEK4HlMEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_aK2BQHidEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jvwGAHidEeiLnYC-lUd3Ww" name="projeto_de_arquitetura_e_detalhamento_do_software" guid="_jvwGAHidEeiLnYC-lUd3Ww" presentationName="Projeto de arquitetura e detalhamento do software" briefDescription="• Documentar ou atualizar o projeto do software.&#xD;&#xA;• Verificar e obter aprovação do projeto do software.&#xD;&#xA;• Criar ou atualizar os casos de teste e procedimentos de teste para o teste de integração, baseados na especificação de requisitos e no projeto de software.&#xD;&#xA;• Verificar e obter aprovação dos casos de teste e procedimentos de teste.&#xD;&#xA;• A partir da especificação de requisitos, gerar o projeto de arquitetura do produto, seus componentes e interfaces internas e externas, cuidando para que sua aparência e comportamento estejam afinados com as expectativas do cliente.&#xD;&#xA;• Gerar ou atualizar o registro de rastreabilidade&#xD;&#xA;• Verificar o projeto do software e o registro de rastreabilidade, registrando o resultado e ajustando o que for preciso;&#xD;&#xA;• Definir os casos de teste e os procedimentos de teste, fazer sua verificação e incorporá-los ao registro de rastreabilidade e ao repositório do projeto." mandatoryInput="_K4hlIHlKEeiBP8SVBVFdYQ _ZITTAHlJEeiBP8SVBVFdYQ" output="_bVVV0HlKEeiBP8SVBVFdYQ _GaEK4HlMEeiBP8SVBVFdYQ _ZK6FoHlKEeiBP8SVBVFdYQ _et-FkHlKEeiBP8SVBVFdYQ _RWMMIHlKEeiBP8SVBVFdYQ _x3M1sHlJEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_vxVBgHidEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2k8DUHidEeiLnYC-lUd3Ww" name="construcao_do_software" guid="_2k8DUHidEeiLnYC-lUd3Ww" presentationName="Construção do software" briefDescription="• Construir ou atualizar os componentes de software com base na parte detalhada do projeto de software e definir ou atualizar os casos de teste de unidade.&#xD;&#xA;• Construir os componentes de software com base na parte detalhada do projeto de software, executar testes unitários e atualizar o registro de rastreabilidade.&#xD;&#xA;• Projetar ou atualizar os casos de teste unitários e aplicá-los para verifi car os componentes de software. Gerar uma baseline da configuração do software, incorporando os componentes e o registro de rastreabilidade.&#xD;&#xA;• Corrigir os defeitos encontrados até alcançar sucesso no teste unitário (chegando ao critério de saída).&#xD;&#xA;• Atualizar o registro de rastreabilidade, incorporando os componentes de software construídos ou modificados." mandatoryInput="_ZITTAHlJEeiBP8SVBVFdYQ _ZK6FoHlKEeiBP8SVBVFdYQ _et-FkHlKEeiBP8SVBVFdYQ" output="_k4B0EHlKEeiBP8SVBVFdYQ _GaEK4HlMEeiBP8SVBVFdYQ _et-FkHlKEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_KXoKsHieEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bPzowHieEeiLnYC-lUd3Ww" name="integracao_e_teste_de_software" guid="_bPzowHieEeiLnYC-lUd3Ww" presentationName="Integração e Teste de software" briefDescription="• Construir ou atualizar os componentes de software com base na parte detalhada do projeto de software e definir ou atualizar os casos de teste de unidade.&#xD;&#xA;• Integrar os componentes do software, executando os casos de teste segundo os procedimentos de teste e documentando os resultados no relatório de teste.&#xD;&#xA;• Atualizar o registro de rastreabilidade.&#xD;&#xA;• Gerar o guia de operação, verificá-lo e obter aprovação.&#xD;&#xA;• Atualizar, verificar e obter aprovação da documentação do usuário.&#xD;&#xA;• Gerar uma baseline incorporando casos de teste e procedimentos de teste, registro de rastreabilidade, relatório de teste, guia de operação do produto e documentação do usuário do software à configuração de software.&#xD;&#xA;• Projetar ou atualizar os casos de teste unitários e aplicá-los para verifi car os componentes de software.&#xD;&#xA;• Corrigir os defeitos encontrados até alcançar sucesso no teste unitário (chegando ao critério de saída).&#xD;&#xA;• Atualizar o registro de rastreabilidade, incorporando os componentes de software construídos ou modificados." mandatoryInput="_bVVV0HlKEeiBP8SVBVFdYQ _k4B0EHlKEeiBP8SVBVFdYQ _GaEK4HlMEeiBP8SVBVFdYQ _ZITTAHlJEeiBP8SVBVFdYQ _et-FkHlKEeiBP8SVBVFdYQ" output="_bVVV0HlKEeiBP8SVBVFdYQ _k4B0EHlKEeiBP8SVBVFdYQ _GaEK4HlMEeiBP8SVBVFdYQ _VVXXcHlKEeiBP8SVBVFdYQ _rDWG0HlKEeiBP8SVBVFdYQ _et-FkHlKEeiBP8SVBVFdYQ _RWMMIHlKEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_egTwMHieEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tPQQ4HieEeiLnYC-lUd3Ww" name="entrega_do_produto" guid="_tPQQ4HieEeiLnYC-lUd3Ww" presentationName="Entrega do produto" briefDescription="• Atribuir tarefas relativas ao seu papel aos membros da equipe de trabalho, de acordo com o plano de projeto corrente.&#xD;&#xA;• Elaborar, verifi car e obter aprovação para a documentação de manutenção, incorporando-a à configuração do software.&#xD;&#xA;• Realizar a entrega do produto ao cliente, de acordo com as condições estabelecidas (no início do planejamento) em instruções de entrega e obter o aceite formal do cliente.&#xD;&#xA;• Obter entendimento da configuração do software.&#xD;&#xA;• Elaborar a documentação de manutenção ou atualizar a existente.&#xD;&#xA;• Verificar a consistência da documentação de manutenção com a configuração do software. Os resultados encontrados são documentados em resultados da verificação, e correções são feitas até que o documento seja aprovado pelo líder de projeto.&#xD;&#xA;• Incorporar documentação de manutenção como baseline na configuração de software.&#xD;&#xA;• Realizar a entrega de acordo com as instruções de entrega." mandatoryInput="_GaEK4HlMEeiBP8SVBVFdYQ _ZITTAHlJEeiBP8SVBVFdYQ" output="_GaEK4HlMEeiBP8SVBVFdYQ _u6KnYHlKEeiBP8SVBVFdYQ _RWMMIHlKEeiBP8SVBVFdYQ">
+            <methodElementProperty xmi:id="_ue2QgHieEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_N_hpAHifEeiLnYC-lUd3Ww" name="realizar_avaliacoes_de_aderencia_nos_pontos_de_controle_definidos" guid="_N_hpAHifEeiLnYC-lUd3Ww" presentationName="Realizar avaliações de aderência nos pontos de controle definidos" briefDescription="É importante que nos pontos de controle definidos no processo os desvios observados sejam registrados de modo a permitir que ações adequadas sejam tomadas. Quando não há monitoração frequente, há mais chances de que a motivação e o empenho da alta gerência diminuam ao longo do projeto.">
+            <methodElementProperty xmi:id="_XTdSgHifEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pYXpcHifEeiLnYC-lUd3Ww" name="identificar_as_nao_conformidades_e_oportunidade_de_melhoria" guid="_pYXpcHifEeiLnYC-lUd3Ww" presentationName="Identificar as não conformidades e oportunidade de melhoria" briefDescription="Identificar as não conformidades ocorridas na execução do processo de desenvolvimento. Identificar as oportunidades de melhoria que podem ser implementadas no processo de desenvolvimento.  &#xD;&#xA;A ocorrência de problemas, desvios e inconsistências, chamados de não conformidades, deve ser identificada. Em momentos iniciais, quando o processo ainda não está totalmente institucionalizado, é comum a ocorrência de problemas, desvios e não conformidades.A definição de critérios auxilia a identificação de não conformidades. O ideal é que as revisões para identifi cação de não conformidades, assim como quaisquer outras revisões, sejam realizadas por alguém diferente daquele que realizou a atividade ou o artefato objeto da revisão. É recomendado que produtos que serão objeto de revisão sejam avaliados antes da sua entrega ao próximo usuário.">
+            <methodElementProperty xmi:id="_37AzgHifEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ZITTAHlJEeiBP8SVBVFdYQ" name="plano_de_projeto" guid="_ZITTAHlJEeiBP8SVBVFdYQ" presentationName="Plano de projeto">
+            <methodElementProperty xmi:id="_bBK5IHlJEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_dBRvsHlJEeiBP8SVBVFdYQ" name="registro_de_reunio" guid="_dBRvsHlJEeiBP8SVBVFdYQ" presentationName="Registro de reunião">
+            <methodElementProperty xmi:id="_nix_kHlJEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ooWggHlJEeiBP8SVBVFdYQ" name="repositorio_do_projeto" guid="_ooWggHlJEeiBP8SVBVFdYQ" presentationName="Repositório do projeto">
+            <methodElementProperty xmi:id="_rFQAwHlJEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_x3M1sHlJEeiBP8SVBVFdYQ" name="solicitao_de_mudana" guid="_x3M1sHlJEeiBP8SVBVFdYQ" presentationName="Solicitação de mudança">
+            <methodElementProperty xmi:id="_0kTVIHlJEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_1RwRAHlJEeiBP8SVBVFdYQ" name="estratagia_de_controle_de_verso" guid="_1RwRAHlJEeiBP8SVBVFdYQ" presentationName="Estratégia de controle de versão">
+            <methodElementProperty xmi:id="_33lq0HlJEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_5EHIUHlJEeiBP8SVBVFdYQ" name="registro_de_status_de_progresso" guid="_5EHIUHlJEeiBP8SVBVFdYQ" presentationName="Registro de status de progresso">
+            <methodElementProperty xmi:id="_7SK7UHlJEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_8xqYIHlJEeiBP8SVBVFdYQ" name="registro_de_correcao" guid="_8xqYIHlJEeiBP8SVBVFdYQ" presentationName="Registro de correção">
+            <methodElementProperty xmi:id="_ACf2wHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_EHWzUHlKEeiBP8SVBVFdYQ" name="configuracao_de_projeto" guid="_EHWzUHlKEeiBP8SVBVFdYQ" presentationName="Configuração de projeto">
+            <methodElementProperty xmi:id="_GaYl4HlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_K4hlIHlKEeiBP8SVBVFdYQ" name="especificacao_de_requisitos" guid="_K4hlIHlKEeiBP8SVBVFdYQ" presentationName="especificação de requisitos">
+            <methodElementProperty xmi:id="_NQIVsHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_N69bYHlKEeiBP8SVBVFdYQ" name="resultado_de_validacao" guid="_N69bYHlKEeiBP8SVBVFdYQ" presentationName="Resultado de validação">
+            <methodElementProperty xmi:id="_P8lU4HlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_RWMMIHlKEeiBP8SVBVFdYQ" name="resultado_de_verificacao" guid="_RWMMIHlKEeiBP8SVBVFdYQ" presentationName="Resultado de verificação">
+            <methodElementProperty xmi:id="_Uub6UHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VVXXcHlKEeiBP8SVBVFdYQ" name="documento_do_usuario" guid="_VVXXcHlKEeiBP8SVBVFdYQ" presentationName="Documento do usuário">
+            <methodElementProperty xmi:id="_W3B-gHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ZK6FoHlKEeiBP8SVBVFdYQ" name="projeto_do_software" guid="_ZK6FoHlKEeiBP8SVBVFdYQ" presentationName="Projeto do software">
+            <methodElementProperty xmi:id="_achegHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_bVVV0HlKEeiBP8SVBVFdYQ" name="casos_de_teste_e_procedimento_de_teste" guid="_bVVV0HlKEeiBP8SVBVFdYQ" presentationName="Casos de teste e procedimento de teste">
+            <methodElementProperty xmi:id="_dSPHYHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_et-FkHlKEeiBP8SVBVFdYQ" name="registro_de_rastreabilidade" guid="_et-FkHlKEeiBP8SVBVFdYQ" presentationName="Registro de rastreabilidade">
+            <methodElementProperty xmi:id="_g0-1YHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_k4B0EHlKEeiBP8SVBVFdYQ" name="componentes_do_software" guid="_k4B0EHlKEeiBP8SVBVFdYQ" presentationName="Componentes do software">
+            <methodElementProperty xmi:id="_mca_AHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rDWG0HlKEeiBP8SVBVFdYQ" name="guia_de_operacao_do_produto" guid="_rDWG0HlKEeiBP8SVBVFdYQ" presentationName="Guia de operação do produto">
+            <methodElementProperty xmi:id="_tF7CkHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_u6KnYHlKEeiBP8SVBVFdYQ" name="documento_de_manuntencao" guid="_u6KnYHlKEeiBP8SVBVFdYQ" presentationName="Documento de manuntenção">
+            <methodElementProperty xmi:id="_xBPBkHlKEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tD7CAHlLEeiBP8SVBVFdYQ" name="registro_de_aceitacao" guid="_tD7CAHlLEeiBP8SVBVFdYQ" presentationName="Registro de aceitação">
+            <methodElementProperty xmi:id="_vs4BQHlLEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GaEK4HlMEeiBP8SVBVFdYQ" name="configuracao_do_software" guid="_GaEK4HlMEeiBP8SVBVFdYQ" presentationName="Configuração do software">
+            <methodElementProperty xmi:id="_JGmCkHlMEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_192aoHlMEeiBP8SVBVFdYQ" name="analista" guid="_192aoHlMEeiBP8SVBVFdYQ" presentationName="Analista" briefDescription="• Conhecimento e experiência em levantamento, especifi cação e análise de requisitos.&#xD;&#xA;• Conhecimento em projeto de interfaces de usuário.&#xD;&#xA;• Conhecimento de técnicas de revisão.&#xD;&#xA;• Experiência em desenvolvimento e manutenção de software.">
+            <methodElementProperty xmi:id="_7ACiIHlMEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_8boWYHlMEeiBP8SVBVFdYQ" name="projetistaarquiteto" guid="_8boWYHlMEeiBP8SVBVFdYQ" presentationName="Projetista/Arquiteto" briefDescription="• Conhecimento e experiência em projeto de arquitetura de componentes de software.&#xD;&#xA;• Conhecimento de técnicas de revisão.&#xD;&#xA;• Conhecimento e experiência em planejamento e execução de testes de integração.&#xD;&#xA;• Experiência em desenvolvimento e manutenção de software.">
+            <methodElementProperty xmi:id="_BvTPcHlNEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_CMp50HlNEeiBP8SVBVFdYQ" name="programadordesenvolvedor" guid="_CMp50HlNEeiBP8SVBVFdYQ" presentationName="Programador/Desenvolvedor" briefDescription="• Conhecimento e/ou experiência em programação, teste unitário e integração.&#xD;&#xA;• Conhecimento de técnicas de revisão.&#xD;&#xA;• Experiência em desenvolvimento e manutenção de software.">
+            <methodElementProperty xmi:id="_GQJkcHlNEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_IHh80HlNEeiBP8SVBVFdYQ" name="equipe_de_trabalho" guid="_IHh80HlNEeiBP8SVBVFdYQ" presentationName="Equipe de trabalho">
+            <methodElementProperty xmi:id="_NuIY8HlNEeiBP8SVBVFdYQ" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mP5i0HiCEeiLnYC-lUd3Ww" name="fase_quatro" guid="_mP5i0HiCEeiLnYC-lUd3Ww" presentationName="Fase quatro">
+          <methodElementProperty xmi:id="_mP5i0XiCEeiLnYC-lUd3Ww" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_oSLjoHiCEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ayUJkHigEeiLnYC-lUd3Ww" name="realizar_auditorias_internas" guid="_ayUJkHigEeiLnYC-lUd3Ww" presentationName="Realizar auditorias internas" briefDescription="Auditorias internas, quando realizadas com independência, ou seja, por pessoa diferente daquelas que executam o processo, aumentam a confiança da equipe no trabalho que está sendo realizado. A realização da auditoria interna deve considerar a aderência dos processo seguidos pelos projetos desenvolvidos aos requisitos preconizados na ABNT NBR ISO/IEC 29110-4-1.">
+            <methodElementProperty xmi:id="_h_RfgHigEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mp730HigEeiLnYC-lUd3Ww" name="realizar_auditorias_externas" guid="_mp730HigEeiLnYC-lUd3Ww" presentationName="Realizar auditorias externas" briefDescription="A realização de auditorias externas garante uma visão independente e auxilia na identifi cação de problemas que nem sempre são percebidos pelas pessoas da organização. A realização de auditorias externas por organismos oficiais permite à organização a obtenção de uma credencial que pode ser reconhecida pelo mercado como atestado de qualidade de seus produtos. ">
+            <methodElementProperty xmi:id="_vbtPcHigEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6IHHwHigEeiLnYC-lUd3Ww" name="realizar_acoes" guid="_6IHHwHigEeiLnYC-lUd3Ww" presentationName="Realizar ações" briefDescription="Realizar ações para solucionar as não conformidades identificadas nas auditorias e realizar ações para implementar as oportunidades de melhorias identificadas nas auditorias. &#xD;&#xA;• Para as não conformidades e oportunidades de melhoria identifi cadas nas auditorias, internas ou externas, devem ser tomadas ações.&#xD;&#xA;• É recomendado que as ações sejam planejadas de modo que possam ser gerenciadas, garantindo, assim, a sua conclusão.">
+            <methodElementProperty xmi:id="_I7uGAHihEeiLnYC-lUd3Ww" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Dx0I3XVzEeid4O8X8vmggg" name="CapabilityPatterns" guid="_Dx0I3XVzEeid4O8X8vmggg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_ed2GkHVzEeid4O8X8vmggg" href="uma://_ed2GkHVzEeid4O8X8vmggg#_ed2GkHVzEeid4O8X8vmggg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_2eql0HV0Eeid4O8X8vmggg" href="uma://_2eql0HV0Eeid4O8X8vmggg#_2eql0HV0Eeid4O8X8vmggg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_6vzq4HV0Eeid4O8X8vmggg" href="uma://_6vzq4HV0Eeid4O8X8vmggg#_6vzq4HV0Eeid4O8X8vmggg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_DrDuoHV1Eeid4O8X8vmggg" href="uma://_DrDuoHV1Eeid4O8X8vmggg#_DrDuoHV1Eeid4O8X8vmggg"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Dx0I3nVzEeid4O8X8vmggg" name="DeliveryProcesses" guid="_Dx0I3nVzEeid4O8X8vmggg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_Zq5DAHV1Eeid4O8X8vmggg" href="uma://_Zq5DAHV1Eeid4O8X8vmggg#_Zq5DAHV1Eeid4O8X8vmggg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Dx0I33VzEeid4O8X8vmggg" name="ProcessContributions" guid="_Dx0I33VzEeid4O8X8vmggg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

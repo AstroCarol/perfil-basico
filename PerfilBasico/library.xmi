@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_eb_h4XVyEeid4O8X8vmggg" guid="_eb_h4XVyEeid4O8X8vmggg">
+    <subManagers xmi:id="_Dy3RsHVzEeid4O8X8vmggg" href="uma://_Dx0I0HVzEeid4O8X8vmggg#_Dy3RsHVzEeid4O8X8vmggg"/>
+    <resourceDescriptors xmi:id="_eb_h4nVyEeid4O8X8vmggg" id="_eb_h4HVyEeid4O8X8vmggg" uri=""/>
+    <resourceDescriptors xmi:id="_Dy3RsXVzEeid4O8X8vmggg" id="_Dx0I0HVzEeid4O8X8vmggg" uri="ImplementacaoPerfilBasico/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_eb_h4HVyEeid4O8X8vmggg" name="PerfilBasico" guid="_eb_h4HVyEeid4O8X8vmggg">
+    <methodElementProperty xmi:id="_ed9QwHVyEeid4O8X8vmggg" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_Dx0I0HVzEeid4O8X8vmggg" href="uma://_Dx0I0HVzEeid4O8X8vmggg#_Dx0I0HVzEeid4O8X8vmggg"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

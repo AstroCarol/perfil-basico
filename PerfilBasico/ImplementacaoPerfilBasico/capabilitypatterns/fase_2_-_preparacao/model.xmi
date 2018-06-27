@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2fByMHV0Eeid4O8X8vmggg" guid="_2fByMHV0Eeid4O8X8vmggg">
+    <resourceDescriptors xmi:id="_2fByMXV0Eeid4O8X8vmggg" id="-sUUvBa8eouqYUzhxkN5ahQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_2eql0HV0Eeid4O8X8vmggg" name="fase_2_-_preparacao" guid="_2eql0HV0Eeid4O8X8vmggg">
+    <methodElementProperty xmi:id="_2euQMHV0Eeid4O8X8vmggg" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_Lj-ysHV1Eeid4O8X8vmggg" name="me_edited" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_2eql0XV0Eeid4O8X8vmggg" name="fase_2_-_preparacao" guid="_2eql0XV0Eeid4O8X8vmggg" presentationName="Fase 2 - Preparação">
+      <presentation xmi:id="-sUUvBa8eouqYUzhxkN5ahQ" href="uma://-sUUvBa8eouqYUzhxkN5ahQ#-sUUvBa8eouqYUzhxkN5ahQ"/>
+      <defaultContext href="uma://_eb_h4HVyEeid4O8X8vmggg#_VS6oEHVzEeid4O8X8vmggg"/>
+      <validContext href="uma://_eb_h4HVyEeid4O8X8vmggg#_VS6oEHVzEeid4O8X8vmggg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_eeWc4HVzEeid4O8X8vmggg" guid="_eeWc4HVzEeid4O8X8vmggg">
+    <resourceDescriptors xmi:id="_eeWc4XVzEeid4O8X8vmggg" id="-HrNWG9tl1GqIm0nPpJ2lxg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_ed2GkHVzEeid4O8X8vmggg" name="fase_1_-_diagnostico" guid="_ed2GkHVzEeid4O8X8vmggg">
+    <methodElementProperty xmi:id="_ed2toXVzEeid4O8X8vmggg" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_Kk2tcHV0Eeid4O8X8vmggg" name="me_edited" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_ed2toHVzEeid4O8X8vmggg" name="fase_1_-_diagnostico" guid="_ed2toHVzEeid4O8X8vmggg" presentationName="Fase 1 - Diagnóstico">
+      <presentation xmi:id="-HrNWG9tl1GqIm0nPpJ2lxg" href="uma://-HrNWG9tl1GqIm0nPpJ2lxg#-HrNWG9tl1GqIm0nPpJ2lxg"/>
+      <defaultContext href="uma://_eb_h4HVyEeid4O8X8vmggg#_VS6oEHVzEeid4O8X8vmggg"/>
+      <validContext href="uma://_eb_h4HVyEeid4O8X8vmggg#_VS6oEHVzEeid4O8X8vmggg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
